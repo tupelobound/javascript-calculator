@@ -1,6 +1,5 @@
 body {
     background-color: #8F9C63;
-    padding: 20px;
   }
   
   #calc-body {
@@ -111,4 +110,25 @@ body {
   
   #add {
     grid-row-end: span 2;
+  }
+
+  @media screen and (max-width:550px) {
+    #calc-body {
+      margin: 50px auto;
+      height: 625px;
+      width: 400px;
+    }
+
+    #display {
+      font-size: 28px;
+      padding: 6px;
+    }
+
+    #calculation {
+      font-size: 19px;
+    }
+
+    .button {
+      font-size: 13px;
+    }
   }
