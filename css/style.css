@@ -114,7 +114,6 @@ body {
 
   @media screen and (max-width:550px) {
     #calc-body {
-      margin: 50px auto;
       height: 625px;
       width: 400px;
     }
@@ -122,6 +121,26 @@ body {
     #display {
       font-size: 28px;
       padding: 6px;
+    }
+
+    #calculation {
+      font-size: 19px;
+    }
+
+    .button {
+      font-size: 13px;
+    }
+  }
+
+  @media screen and (max-width:450px) {
+    #calc-body {
+      height: 546px;
+      width: 350px;
+    }
+
+    #display {
+      font-size: 24px;
+      padding: 5px;
     }
 
     #calculation {
