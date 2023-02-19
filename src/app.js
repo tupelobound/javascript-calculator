@@ -280,7 +280,7 @@ class App extends React.Component {
             <div id="calc-body">
                 <div id="top">
                     <div id="heading">
-                        <span id="title">Electronic Calculator</span>
+                        <h1 id="title">Electronic Calculator</h1>
                     </div>
                     <Display
                         current={this.state.display}

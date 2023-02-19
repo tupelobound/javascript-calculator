@@ -304,7 +304,7 @@ var App = /*#__PURE__*/function (_React$Component) {
         id: "top"
       }, /*#__PURE__*/React.createElement("div", {
         id: "heading"
-      }, /*#__PURE__*/React.createElement("span", {
+      }, /*#__PURE__*/React.createElement("h1", {
         id: "title"
       }, "Electronic Calculator")), /*#__PURE__*/React.createElement(Display, {
         current: this.state.display,
