@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&family=Orbitron&display=swap');
+
 body {
     background-color: #8F9C63;
   }
@@ -32,7 +34,7 @@ body {
   
   #title {
     color: white;
-    font-family: 'Baloo Bhaina', cursive;
+    font-family: 'Orbitron', sans-serif;;
     font-size: 24px;
     margin-right: 35px;
     margin-top: 25px;
