@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&family=Orbitron&display=swap');
+
+body {
+  background-color: #8f9c63;
+}
+
+#calc-body {
+  margin: 50px auto;
+  height: 700px;
+  width: 450px;
+  background:
+    linear-gradient(
+      to top,
+      #3a3732,
+      #555 96%,
+      #8f8d8a 98%,
+      #555
+    );
+  border-radius: 25px;
+  box-shadow: 12px 12px 40px, inset 10px -20px 40px #1d1f20;
+  display: grid;
+  grid-template-rows: 35% 65%;
+}
+
+#top {
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+
+#heading {
+  display: grid;
+  align-items: center;
+  justify-items: end;    
+}
+
+#title {
+  color: white;
+  font-family: 'Orbitron', sans-serif;;
+  font-size: 24px;
+  margin-right: 35px;
+  margin-top: 25px;
+}
+
+#button-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 50px 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  padding: 20px 30px 45px 30px;
+}
+
+.button {
+  color: white;
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 22px;
+  cursor: pointer;
+  background:
+    linear-gradient(
+      to top,
+      #161514,
+      #2A2829
+    );
+  border-radius: 10px;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
+  border-top: 2px solid black;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.button:active {
+  border-top: 3px solid black;
+  border-bottom: 5px solid black;
+  background:
+    linear-gradient(
+      to top,
+      #161514,
+      #2A2829 80%
+    );
+}
+
+#add {
+  grid-row-end: span 2;
+}
+
+#screen {
+  display: grid;
+  grid-template-rows: 60% 40%;
+  margin: 0 30px;
+  border-width: 12px;
+  border-style: solid;
+  border-color: #282626 #282626 #383535 #282626;
+  border-radius: 10px;
+  background:
+    linear-gradient(
+      to bottom left,
+      #889d94,
+      #b7beb7
+    );
+}
+
+#display {
+  text-align: right;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 45px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+#calculation {
+  text-align: right;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 30px;
+  padding: 0 10px 10px 10px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 550px) {
+  #calc-body {
+    height: 625px;
+    width: 400px;
+  }
+
+  #display {
+    font-size: 28px;
+    padding: 6px;
+  }
+
+  #calculation {
+    font-size: 19px;
+  }
+
+  .button {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #calc-body {
+    height: 546px;
+    width: 350px;
+  }
+
+  #display {
+    font-size: 24px;
+    padding: 5px;
+  }
+
+  #calculation {
+    font-size: 19px;
+  }
+
+  .button {
+    font-size: 13px;
+  }
+}
