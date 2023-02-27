@@ -47,5 +47,5 @@
     "eslint-plugin-react": "^7.32.2",
     "gh-pages": "^5.0.0"
   },
-  "homepage": "https://tupelobound.github.io/javascript-calculator-v2/"
+  "homepage": "https://tupelobound.github.io/javascript-calculator/"
 }
